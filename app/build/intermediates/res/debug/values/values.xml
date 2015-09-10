@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/E:/Android%20Projects/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="bg_black">#EE696969</color>
+    <color name="bg_gray">#F0F2F1</color>
+    <color name="black">#000000</color>
+    <color name="btn_border_gray">#CACED1</color>
+    <color name="btn_press_black">#1D1D1D</color>
+    <color name="btn_press_gray">#E0E2E1</color>
+    <color name="btn_unpress_gray">#F9FBFA</color>
+    <color name="dark_gray">#2B2B29</color>
+    <color name="divider_dark">#454545</color>
+    <color name="gray_divider">#CACECF</color>
+    <color name="light_gray">#969897</color>
+    <color name="light_gray_divider">#D6D8D7</color>
+    <color name="middle_gray">#A6A6A4</color>
+    <color name="playlist_icon_border_gray">#C8C8C8</color>
+    <color name="playlist_icon_inside_gray">#D9D9D9</color>
+    <color name="playlist_small_text_gray">#878787</color>
+    <color name="popupmenu_bg_gray">#F0F4F3</color>
+    <color name="red">#DF3130</color>
+    <color name="seekbar_gray">#EEDEDEDE</color>
+    <color name="seekbar_red">#CB291A</color>
+    <color name="text_gray">#666666</color>
+    <color name="transparent">#FFFFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <!-- From: file:/E:/Android%20Projects/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/E:/Android%20Projects/app/src/main/res/values/ids.xml -->
+    <eat-comment/>
+    <item name="image_control" type="id"/>
+    <item name="img_control" type="id"/>
+    <item name="img_speaker" type="id"/>
+    <item name="title" type="id"/>
+    <!-- From: file:/E:/Android%20Projects/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="add">Add</string>
+    <string name="all_musics">All Musics</string>
+    <string name="app_name">SimpleMusic</string>
+    <string name="cancel">Cancel</string>
+    <string name="control_desc">Control icon</string>
+    <string name="default_playlist">Default Playlist</string>
+    <string name="delete">Delete</string>
+    <string name="divider_desc">Divider</string>
+    <string name="find_musics_count">Find %1$d songs.</string>
+    <string name="image_desc">Image</string>
+    <string name="msg_delete">Do you want to delet this music?</string>
+    <string name="msg_play_error">Cannot play this music.</string>
+    <string name="msg_playlist_empty">Please return to "All Musics" to add musics.</string>
+    <string name="msg_success_add_playlist">Successfully add to playlist</string>
+    <string name="my_favorite_playlist">My Favorite Playlist</string>
+    <string name="my_playlist">My Playlists</string>
+    <string name="new_playlist">New Playlist</string>
+    <string name="ok">OK</string>
+    <string name="return_to_musics">Return to view musics</string>
+    <string name="select_playlist">Please select a playlist</string>
+    <string name="start_scan">Scan musics</string>
+    <string name="stop_scan">Stop scan</string>
+    <!-- From: file:/E:/Android%20Projects/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="ActionBarPopupMenuStyle">  
+        <item name="android:popupBackground">@drawable/shape_popupmenu_bg</item>
+    </style>
+    <style name="ActionBarTitleStyle">  
+        <item name="android:textSize">18sp</item>  
+        <item name="android:textColor">@color/white</item>  
+    </style>
+    <style name="CustomActionBarColor" parent="@android:style/Widget.Holo.ActionBar" type="text/css">
+        <item name="android:background">@color/red</item>
+        <item name="android:titleTextStyle">@style/ActionBarTitleStyle</item>  
+    </style>
+    <style name="CustomDialogStyle" parent="@android:style/Theme.Holo.Light.Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:popupBackground">@android:color/transparent</item>
+    </style>
+    <style name="CustomTheme" parent="@android:style/Theme.Holo" type="text/css">
+        <item name="android:actionBarStyle">@style/CustomActionBarColor</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:popupMenuStyle">@style/ActionBarPopupMenuStyle</item>
+        <item name="android:windowBackground">@color/bg_gray</item>
+        <item name="android:alertDialogStyle">@style/CustomDialogStyle</item>
+    </style>
+    <style name="TextStyleBig">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="TextStyleSmall">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_gray</item>
+    </style>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+	 <solid android:color="@color/popupmenu_bg_gray" />
+	 <stroke android:color="@color/playlist_icon_border_gray" android:width="0.5dp" />
+	 <corners android:radius="1dp" />
+</shape><!-- From: file:/E:/Android%20Projects/app/src/main/res/drawable-hdpi/shape_popupmenu_bg.xml -->

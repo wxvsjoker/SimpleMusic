@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.simplemusic"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    
+    <application
+        android:name="com.example.simplemusic.base.BaseApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:theme="@style/CustomTheme"
+        android:logo="@drawable/ic_logo" >
+        <activity
+            android:name=".SimpleMusicActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ScanActivity"
+            android:label="@string/start_scan"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".PlaylistActivity"
+            android:label="@string/all_musics"
+            android:screenOrientation="portrait" >
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SimpleMusicActivity" />
+        </activity>
+        <activity
+            android:name=".MusicPlayActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <service android:name=".MusicPlayService"></service>
+    </application>
+
+</manifest>
